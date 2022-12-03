@@ -1,7 +1,7 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import PartsListPage from "./pages/PartsListPage";
 import "./App.css";
-
+import PartsListPage from "./pages/PartsListPage";
 function App() {
   return (
     <>

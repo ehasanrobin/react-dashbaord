@@ -1,0 +1,17 @@
+.sidebar {
+  max-width: 250px;
+  min-height: 100vh;
+  background: #2c3238 !important;
+  padding: 0;
+  position: relative;
+  transition: 0.7s;
+}
+.dashboard.expand {
+  width: calc(100% - 120px);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.dashboard {
+  width: calc(100% - 250px);
+  padding: 30px;
+}
